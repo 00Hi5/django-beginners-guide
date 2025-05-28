@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{% block title %}Django Boards{% endblock %}</title>
+    <title>{% block title %}Django Citas{% endblock %}</title>
     <link href="https://fonts.googleapis.com/css?family=Peralta" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/app.css' %}">
@@ -13,14 +13,14 @@
       <div class="wrapper">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
           <div class="container">
-            <a class="navbar-brand" href="{% url 'home' %}">Django Boards</a>
+            <a class="navbar-brand" href="{% url 'home' %}">Django Citas</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mainMenu">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="{% url 'home' %}">Boards</a>
+                  <a class="nav-link" href="{% url 'home' %}">Citas</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a class="nav-link" href="https://simpleisbetterthancomplex.com/series/beginners-guide/1.11/" target="_blank" rel="noopener">Tutorial</a>
